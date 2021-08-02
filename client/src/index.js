@@ -7,7 +7,7 @@ import * as serviceWorker from "./serviceWorker";
 //#region Redux
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import allReducers from "./reducers";
+// import allReducers from "./reducers";
 //#endregion
 
 ReactDOM.render(

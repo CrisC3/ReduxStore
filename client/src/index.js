@@ -4,6 +4,12 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
+//#region Redux
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import allReducers from "./reducers";
+//#endregion
+
 ReactDOM.render(
 	<React.StrictMode>
 		<App />

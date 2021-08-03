@@ -1,8 +1,7 @@
 import { combineReducers } from "redux";
 
-// import counterReducer from "./counter";
-// import loggedReducer from "./isLogged";
+import reducers from "./Cart";
 
-// const allReducers = combineReducers({ counter: counterReducer, isLogged: loggedReducer });
+const allReducers = combineReducers({ reducers });
 
-// export default allReducers;
+export default allReducers;
